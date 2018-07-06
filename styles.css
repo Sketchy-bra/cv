@@ -1,0 +1,280 @@
+head {
+    display: none;
+}
+
+body {
+    margin-top: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: black;
+    overflow-x: hidden;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.l-wrap {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+div {
+    display: block;
+}
+div#header {
+    margin-top: -40px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    width: 100%;
+    height: 700px;
+}
+div#header h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-left: 90px;
+    padding-top: 100px;
+    text-align: center;
+}
+div#header h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-left: 90px;
+    margin-top: 70px;
+    text-align: center;
+}
+div#header p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 90px;
+    margin-top: 70px;
+
+    text-align: center;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+div#nav {
+    height: 90px;
+    overflow: hidden;
+    background-color: lavender;
+    z-index: 3;
+    padding-right: 20px;
+}
+.sticky {
+    padding-top: 10px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav {
+    display: inline-block;
+    width: max-content;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    margin-right: 300px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+nav li {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+    margin-right: 100px;
+    text-align: center;
+    font-weight: 600;
+}
+nav li a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   
+}
+element.style {
+    height: 460px;
+}
+
+.grid-item {
+    width: calc((100% - 10% * 3) / 3);
+    margin-top: 0;
+    padding-left: 4%;
+    padding-right: 4%;
+    float: right;
+}
+div#title-education {
+    height: 100px;
+    margin-top: -10px;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-top: -140px;
+    text-align: center;
+}
+.l-education .l-highschool {
+    width: 25%;
+    border: none;
+}
+.l-education .l-academy {
+    width: 25%;
+}
+.l-education .l-college {
+    width: 25%;
+}
+.grid-inner {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+}
+.grid-inner h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 40px;
+}
+body h1, body h2, body h3, body h4, body h5 {
+    color: black;
+}
+h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 60px;
+}
+.grid-inner p {
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 40px;
+}
+.grid-inner ul {
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 40px;
+}
+
+div#title-skills {
+    height: 100px;
+    margin-top: 200px;
+    background-color: lavender;
+    background-size: 100%;
+    text-align: center;
+    width: 100%;
+}
+h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 20px;
+    margin-left: 60px;
+    padding: 30px;
+    text-align: center;
+}
+element.style {
+    width: 127100px;
+}
+div#carousel {
+    width: 10000%;
+}
+div#carousel {
+    background-color: lavender;
+    height: 150px;
+    padding: 10px;
+}
+div#carousel.ready > * {
+    display: inline-block;
+    float: none;
+    overflow: hidden;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-name: inherit;
+}
+.l-cv {
+    height: 200px;
+}
+.l-cv .l-job-1 {
+    width: 41.6666666667%;
+    border-right: 1px dashed grey;
+}
+.grid-item {
+    width: calc((100% - 10% * 3) / 3);
+    margin-top: 0;
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+}
+div#call-to-action {
+    height: 100px;
+    margin-top: 300px;
+    padding: 10px;
+    color: #4f5050;
+    background-color: #9b9d9e;
+    margin-left: 0px;
+    text-align: center;
+}
+h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 60px;
+}
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+#references{
+    text-align: center;
+    margin-top: 20%;
+    margin-left: -30%;
+    float: none;
+    margin-bottom: 10%;
+    text-align: center;
+}
+#footer {
+    display: inline-block;
+    font-size: 15px;
+    height: 120px;
+    width: 100%;
+    padding: 10px;
+    background-color: #bad1da;
+    text-align: center;
+}
